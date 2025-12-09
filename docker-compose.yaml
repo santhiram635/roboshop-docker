@@ -26,7 +26,7 @@ services:
       RABBITMQ_DEFAULT_PASS: roboshop123
   catalogue:
     build: ./catalogue
-    image: catalogue:v1
+    image: santhiram/catalogue:v1
     container_name: catalogue
     depends_on:
     - mongodb
